@@ -91,20 +91,6 @@ int main(int argc, char **argv)
     receive_buf[ bytes_received ] = '\0';
     printf("Receive Message:\r\n%s\r\n",receive_buf );
 
-#if 0
-    char *ptr_start,*ptr_end;
-    int  len = 0;
-    ptr_start = strchr(receive_buf,'{');
-    ptr_end = strchr(receive_buf,'}');
-    len = ptr_end - ptr_start - 1;
-    
-    char actuator_info[64];
-    memset(actuator_info,0,sizeof(actuator_info));
-
-    memcpy(actuator_info,ptr_start+1,len);
-    printf("actuator information %s",actuator_info);
-#endif
-
     closesocket(socket_id);         // 关闭套接字
     WSACleanup();                   // windows下释放套接字
 
