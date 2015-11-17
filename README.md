@@ -9,6 +9,7 @@ just4test
 4. 更新代码库
 5. 使用SSH Key 使用工具生成
 
+故意冲突
 
 git add
 git commit
