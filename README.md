@@ -27,8 +27,14 @@ just4test
 4. 提交到远程GitHub仓库 : git push -u origin master;
 
 ## 同步代码 ##
-1. 与远程远程仓库同步 :git pull ;
-2. 查看文件变更 : git status ;
+1. 与远程远程仓库同步 :git pull;
+2. 查看文件变更 : git status;
 3. 提交代码到本地缓存 : git commit -m 'description';
-4. 提交代码到远程仓库 :git push ;
+4. 提交代码到远程仓库 :git push;
 
+## 分支操作 ##
+1. 列出分支 : git branch;
+2. 切换分支 : git checkout master;
+3. 提交分支 : git push origin branchName;
+4. 删除分支 : git branch -d branchName , 强制删除分支 git branch -D branchName;
+5. 合并分支 : git merge branchName;
