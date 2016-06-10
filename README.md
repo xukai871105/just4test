@@ -27,7 +27,7 @@ just4test
 4. 提交到远程GitHub仓库 : git push -u origin master;
 
 ## 同步代码 ##
-1. 与远程仓库同步 :git pull;
+1. 与远程仓库同步 : git pull;
 2. 查看文件变更 : git status;
 3. 提交代码到本地缓存 : git commit -m 'description';
 4. 提交代码到远程仓库 :git push;
